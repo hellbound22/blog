@@ -12,7 +12,8 @@
 
 <body>
   <h1>I write stuff</h1>
-  <h3>A Rodrigo Mauricio blog and portifolio</h3>
+
+  Published: {{ date }}
 
   {{ post }}
 

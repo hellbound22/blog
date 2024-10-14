@@ -13,10 +13,15 @@
 <body>
   <h1>I write stuff</h1>
   <h3>A Rodrigo Mauricio blog and portifolio</h3>
+  <br>
+  <h5>Projects and stuff</h5>
+  <ul><a href="https://crates.io/crates/keratin">Keratin</a></ul>
+  <ul><a href="https://github.com/hellbound22/shellpage">Shellpage</a> (the engine powering this blog)</ul>
 
+
+  <h5>Blog posts</h5>
 {% for post in posts %}
-	<a href="/blog/html/{{post.file_name}}">{{post.name}}</a>
-	<br> 
+<ul><a href="/blog/html/{{post.file_name}}">{{post.name}}</a></ul>
 {% endfor %}
 
 </body>
