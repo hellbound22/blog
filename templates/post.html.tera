@@ -14,10 +14,7 @@
   <h1>I write stuff</h1>
   <h3>A Rodrigo Mauricio blog and portifolio</h3>
 
-{% for post in posts %}
-	<a href="/blog/html/{{post.file_name}}">{{post.name}}</a>
-	<br> 
-{% endfor %}
+  {{ post }}
 
 </body>
 </html>
