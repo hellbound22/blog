@@ -14,5 +14,5 @@
   <h1>Hello, world!</h1>
 </body>
 
-<a href="/blog/html/teste.html">Teste</a>
+{{ link }}
 </html>
