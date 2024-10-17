@@ -18,6 +18,11 @@
   <ul><a href="https://crates.io/crates/keratin">Keratin</a></ul>
   <ul><a href="https://github.com/hellbound22/shellpage">Shellpage</a> (the engine powering this blog)</ul>
 
+  <br>
+  <h5>Contact</h5>
+  <ul><a href="www.linkedin.com/in/rodrigo-mauricio-b84421195"></a>LinkedIn</ul>
+  <ul>rodrigomauricio@protonmail.com</ul>
+  
 
   <h5>Blog posts</h5>
 {% for post in posts %}
